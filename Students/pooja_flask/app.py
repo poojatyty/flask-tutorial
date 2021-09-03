@@ -36,6 +36,7 @@ def home():
            return render_template('result.html',username=username)
     except:
         return render_template('index.html')
+        
 
 @app.route("/logout")
 def logout():
